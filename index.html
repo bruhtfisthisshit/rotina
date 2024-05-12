@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="style.css" rel="stylesheet" />
+    <title>Sitezinho de Rotina</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rotina</h1>
+      <form action="#">
+        <label for="diaSemana">Dia da Semana </label>
+        <select id="diaSemana" name="diaSemana">
+          <option value="domingo">Domingo</option>
+          <option value="segunda">Segunda</option>
+          <option value="terca">Terça</option>
+          <option value="quarta">Quarta</option>
+          <option value="quinta">Quinta</option>
+          <option value="sexta">Sexta</option>
+          <option value="sabado">Sábado</option>
+        </select>
+      </form>
+    </header>
+    <main>
+      <div id="rotina">
+        <section class="periodo">
+          <h2>Manhã</h2>
+          <div id="manha"></div>
+        </section>
+        <section class="periodo">
+          <h2>Tarde</h2>
+          <div id="tarde"></div>
+        </section>
+        <section class="periodo">
+          <h2>Noite</h2>
+          <div id="noite"></div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
